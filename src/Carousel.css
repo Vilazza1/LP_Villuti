@@ -1,0 +1,68 @@
+.carousel-container {
+    text-align: center;
+    padding: 40px 0;
+    max-width: auto;
+    margin: auto;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .slick-slide {
+    display: flex;
+    justify-content: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .carousel-item {
+    width: 300px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .slick-center .carousel-item {
+    border: 2px solid #a855f7;
+    transform: scale(1.1);
+    box-shadow: 0 10px 40px rgba(168, 85, 247, 0.4);
+  }
+  
+  .icon {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .item-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #a855f7;
+  }
+  
+  .item-text {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  .slick-dots li button:before {
+    font-size: 10px;
+    color: #a855f7;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #a855f7;
+  }
+  
+  .slick-slide > div {
+    height: 500px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

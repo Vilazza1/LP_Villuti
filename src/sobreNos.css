@@ -1,0 +1,47 @@
+.sobre-nos {
+    padding: 60px 20px;
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.texto {
+    flex: 1;
+}
+
+.texto h2 {
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.texto p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.texto .destaque {
+    font-weight: bold;
+    color: #6a0dad;
+}
+
+.imagem {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
