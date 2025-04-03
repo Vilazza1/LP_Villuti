@@ -4,6 +4,9 @@ import "./index.css";
 import App from "./Home.jsx";
 import Carousel from "./carouselData.jsx";
 import SobreNos from './sobreNos.jsx'
+import Logos from './logos.jsx'
+import Clientes from "./clientes.jsx";
+
 
 
 createRoot(document.getElementById("root")).render(
@@ -11,5 +14,7 @@ createRoot(document.getElementById("root")).render(
     <App />
     <Carousel />
     <SobreNos />
+    <Logos />
+    <Clientes />
   </StrictMode>
 );
