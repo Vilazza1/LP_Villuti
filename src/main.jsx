@@ -6,8 +6,9 @@ import Carousel from "./carouselData.jsx";
 import SobreNos from './sobreNos.jsx'
 import Logos from './logos.jsx'
 import Clientes from "./clientes.jsx";
-
-
+import ProcessSection from "./ProcessSection.jsx";
+import TargetAudienceSectionl from './TargetAudienceSection.jsx'
+import Footer from "./Footer.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -16,5 +17,8 @@ createRoot(document.getElementById("root")).render(
     <SobreNos />
     <Logos />
     <Clientes />
+    <ProcessSection />
+    <TargetAudienceSectionl />
+    <Footer />
   </StrictMode>
 );

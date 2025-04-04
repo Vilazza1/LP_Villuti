@@ -7,6 +7,7 @@ import "./logos.css";
 function Logos() {
   const settings = {
     dots: false,
+    arrows: false,
     infinite: true,
     speed: 1000, // Tempo de transição
     slidesToShow: 5, // Quantidade de logos visíveis

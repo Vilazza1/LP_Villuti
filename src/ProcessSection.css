@@ -1,0 +1,67 @@
+.process-section {
+    background-color: #fff;
+    padding: 80px 20px;
+  }
+  
+  .process-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .process-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .process-subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .process-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  @media (min-width: 768px) {
+    .process-steps {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  
+  .step-card {
+    background-color: #f8f8f8;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    flex: 1;
+    transition: all 0.3s ease;
+  }
+  
+  .step-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .step-icon {
+    color: #5a4fcf;
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+  
+  .step-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .step-description {
+    font-size: 14px;
+    color: #444;
+  }
+  
